@@ -1,3 +1,17 @@
+nav {
+    background-color: rgb(66, 138, 192);
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    color: rgb(68, 125, 138);
+}
+
 main {
     max-width: 400px;
 
@@ -6,7 +20,9 @@ main {
 main img {
     width: 150px;
     height: auto;
-
+    border: 1px solid rgb(142, 139, 139);
+    padding: 2px;
+    box-shadow: 0 0 30px grey;
 }
 
 main p {
@@ -14,16 +30,17 @@ main p {
 }
 
 aside {
-    width: 250px;
-    margin: 10px;
-    border: 1px solid black;
-    padding: 5px 10px;
-    background-color: rgb(220, 241, 253);
+    width: 20em;
+    margin: 1em;
+    border: 1px solid rgb(0 0 0 0.2);
+    padding: 1em;
+    background-color: rgb(235, 239, 239);
     color: black;
+    text-align: center;
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 20em;
     border-top: 1px dotted black;
     text-align: center;
 
