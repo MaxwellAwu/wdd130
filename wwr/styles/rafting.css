@@ -1,0 +1,152 @@
+:root {
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+    --primary-color: #196b01;
+    --secondary-color: rgba(255, 115, 0, 0.703);
+    --font-size: 16px;
+    --border: 1px solid rgb(33, 33, 33);
+    --accent1-color: rgb(0, 0, 0);
+    --accent2-color: rgba(0, 0, 0, 0.502);
+    --accent3-color: white;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--primary-color);
+
+}
+
+header nav,
+ul,
+li {
+    display: inline-block;
+
+}
+
+nav li {
+    margin-left: 25px;
+}
+
+nav li a {
+    margin: 2px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: var(--accent3-color);
+
+}
+
+nav li img {
+    width: 20px;
+    filter: brightness(0) invert(1);
+}
+
+header img {
+    width: 10%;
+    height: auto;
+    border: 1px solid black;
+    margin-left: 10px;
+    vertical-align: middle;
+    border-radius: 10%;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.hero {
+    position: relative;
+    margin-top: 2em;
+
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent2-color);
+    color: #cccbcb;
+
+}
+
+.hero article {
+    position: absolute;
+    bottom: -9;
+    background-color: var(--secondary-color);
+    color: #000000;
+    border-radius: 4px;
+
+}
+
+.hero article p {
+    padding: 0;
+    margin: 0;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    box-shadow: rgba(0, 0, 0, 0.502);
+    border: var(--border);
+}
+
+footer {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+
+}
+
+footer p {
+    text-align: center;
+    color: white;
+
+}
+
+.socialmedia {
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+}
+
+.socialmedia img {
+    width: 25px;
+    height: auto;
+    margin-left: 10px;
+    vertical-align: middle;
+
+}
