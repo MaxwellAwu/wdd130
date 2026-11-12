@@ -58,6 +58,7 @@ header img {
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    font-size: var(--font-size);
 }
 
 header,
@@ -106,7 +107,7 @@ article {
 
 .hero article {
     position: absolute;
-    bottom: -9;
+    bottom: -9px;
     background-color: var(--secondary-color);
     color: #000000;
     border-radius: 4px;
@@ -121,7 +122,7 @@ article {
 .hero article img {
     float: right;
     width: 125px;
-    box-shadow: rgba(0, 0, 0, 0.502);
+    box-shadow: 0 0 5px black;
     border: var(--border);
 }
 
@@ -138,9 +139,13 @@ footer p {
 }
 
 .socialmedia {
-    text-decoration: none;
     text-align: center;
     margin: 0;
+
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
 
 .socialmedia img {
